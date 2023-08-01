@@ -1,0 +1,157 @@
+body {
+    background-color: rgb(185, 170, 170);
+}
+
+
+.cake {
+    width: 65px;
+    height: 65px;
+    display: block;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+
+
+.HP {
+    font-size: 35px;
+    color: black;
+    text-align: center;
+}
+
+
+.H-P {
+    margin-top: 30px;
+    font-size: 50px;
+    color: black;
+    text-align: center;
+}
+
+
+
+#myProgress {
+    margin: auto;
+    width: 65%;
+    background-color: rgb(237, 225, 225);
+    border-radius: 30px;
+    margin-top: 100px;
+  }
+  
+  #myBar {
+    width: 0%;
+    height: 5px;
+    background-color: rgb(78, 74, 74);
+    border-radius: 30px;
+  }
+
+
+
+.bot {
+    text-align: center;
+    margin-top: 70px;
+}
+
+
+
+.button {
+    border: none;
+    background: none;
+}
+
+
+
+#countdown {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.pulse {
+    margin: auto;
+    display: block;
+    animation: pulse 2s infinite;
+    width: 80px;
+    height: 80px;
+    border-radius: 30px;
+  }
+
+  @-webkit-keyframes pulse {
+    0% {
+      -webkit-box-shadow: 0 0 0 0 rgb(0, 0, 0);
+    }
+    70% {
+        -webkit-box-shadow: 0 0 0 3px rgb(0, 0, 0);
+    }
+    100% {
+        -webkit-box-shadow: 0 0 0 0 rgb(0, 0, 0);
+    }
+  }
+
+
+
+  @keyframes pulse {
+    0% {
+      -moz-box-shadow: 0 0 0 0 rgb(0, 0, 0);
+      box-shadow: 0 0 0 0 rgb(0, 0, 0);
+    }
+    70% {
+        -moz-box-shadow: 0 0 0 10px rgb(0, 0, 0);
+        box-shadow: 0 0 0 3px rgb(0, 0, 0);
+    }
+    100% {
+        -moz-box-shadow: 0 0 0 0 rgb(0, 0, 0);
+        box-shadow: 0 0 0 0 rgb(0, 0, 0);
+    }
+  }
+
+
+
+  .pulse2 {
+    animation: pulse 2.5s infinite;
+    width: 100px;
+    height: 100px;
+    border-radius: 30px;
+    margin: auto;
+    display: block;
+    margin-top: -90px;
+  }
+
+  @-webkit-keyframes pulse {
+    0% {
+      -webkit-box-shadow: 0 0 0 0 rgb(0, 0, 0);
+    }
+    70% {
+        -webkit-box-shadow: 0 0 0 3px rgb(0, 0, 0);
+    }
+    100% {
+        -webkit-box-shadow: 0 0 0 0 rgb(0, 0, 0);
+    }
+  }
+
+
+
+  @keyframes pulse {
+    0% {
+      -moz-box-shadow: 0 0 0 0 rgb(0, 0, 0);
+      box-shadow: 0 0 0 0 rgb(0, 0, 0);
+    }
+    70% {
+        -moz-box-shadow: 0 0 0 10px rgb(0, 0, 0);
+        box-shadow: 0 0 0 3px rgb(0, 0, 0);
+    }
+    100% {
+        -moz-box-shadow: 0 0 0 0 rgb(0, 0, 0);
+        box-shadow: 0 0 0 0 rgb(0, 0, 0);
+    }
+  }
